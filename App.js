@@ -1,10 +1,11 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, Platform } from 'react-native';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
+      <View style = {styles.boxes}></View>
+
     </View>
   );
 }
@@ -12,8 +13,14 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: Platform.OS === 'android'? 'blue' : 'red',
     alignItems: 'center',
     justifyContent: 'center',
   },
+  boxes: {
+    height: 200,
+    width: '50%',
+    margin: 10,
+    backgroundColor: 'black'
+  }
 });
