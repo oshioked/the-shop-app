@@ -10,6 +10,8 @@
   "dependencies": {
     "@react-native-community/masked-view": "0.1.6",
     "expo": "~37.0.3",
+    "expo-linear-gradient": "^8.1.0",
+    "moment": "^2.26.0",
     "navigation": "^5.3.1",
     "react": "^16.9.0",
     "react-dom": "~16.9.0",
@@ -25,11 +27,13 @@
     "react-navigation-stack": "^2.7.0",
     "react-navigation-tabs": "^2.8.13",
     "react-redux": "^7.2.0",
-    "redux": "^4.0.5"
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.8.6",
     "babel-preset-expo": "~8.1.0",
-    "@babel/core": "^7.8.6"
+    "redux-devtools-extension": "^2.13.8"
   },
   "private": true
 }
