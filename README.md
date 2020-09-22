@@ -1,3 +1,2 @@
-# the-shop-app
+# the-shop-app. An ecommerce shop built with react native
 
-An ecommerce shop built with react native
